@@ -1,13 +1,13 @@
 <header>
-    <ul class="nav pb-5 ">
+    <ul class="nav pb-5">
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('home') }}">Home</a>
+            <a class="nav-link text-danger" href="{{ route('home') }}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="{{ route('comics.index') }}">Comics List</a>
+            <a class="nav-link text-danger" href="{{ route('comics.index') }}">Comics List</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">New Comics</a>
+            <a class="nav-link text-danger" href="#">New Comics</a>
         </li>
     </ul>
 </header>
