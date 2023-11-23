@@ -1,5 +1,5 @@
 <header>
-    <ul class="nav">
+    <ul class="nav pb-5 ">
         <li class="nav-item">
             <a class="nav-link" href="{{ route('home') }}">Home</a>
         </li>

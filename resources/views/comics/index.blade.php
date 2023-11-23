@@ -1,7 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    <h1 class="p-5">Comics list</h1>
+    <h1 class="p-3">Comics list</h1>
     <table class="table">
         <thead>
             <tr>
@@ -22,6 +22,8 @@
                     <td>{{ $comic->series }}</td>
                     <td>{{ $comic->sale_date }}</td>
                     <td>{{ $comic->type }}</td>
+                    <td><a href="{{ route('comics.show', $comic) }}" class="btn btn-danger">+Details</a></td>
+
 
                 </tr>
             @endforeach
