@@ -4,7 +4,7 @@
             <a class="nav-link" href="{{ route('home') }}">Home</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="#">Comics List</a>
+            <a class="nav-link" href="{{ route('comics.index') }}">Comics List</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="#">New Comics</a>
