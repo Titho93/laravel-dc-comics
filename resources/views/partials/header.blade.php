@@ -7,7 +7,7 @@
             <a class="nav-link text-danger" href="{{ route('comics.index') }}">Comics List</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link text-danger" href="#">New Comics</a>
+            <a class="nav-link text-danger" href="{{ route('comics.create') }}">Insert New Comics</a>
         </li>
     </ul>
 </header>
