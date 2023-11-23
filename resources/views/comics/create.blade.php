@@ -25,7 +25,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="price" class="form-label">Price</label>
-                    <input type="text" class="form-control" id="cooking_time" name="cooking_time">
+                    <input type="text" class="form-control" id="price" name="price">
                 </div>
                 <div class="mb-3">
                     <label for="sale_date" class="form-label">Sale Date</label>
