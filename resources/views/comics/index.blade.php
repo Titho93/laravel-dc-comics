@@ -23,7 +23,10 @@
                     <td>{{ $comic->series }}</td>
                     <td>{{ $comic->sale_date }}</td>
                     <td>{{ $comic->type }}</td>
-                    <td><a href="{{ route('comics.show', $comic) }}" class="btn btn-danger">+Details</a></td>
+                    <td>
+                        <a href="{{ route('comics.show', $comic) }}" class="btn btn-secondary">+Details</a>
+                        <a href="{{ route('comics.edit', $comic) }}" class="btn btn-warning">Edit</a>
+                    </td>
 
 
                 </tr>
