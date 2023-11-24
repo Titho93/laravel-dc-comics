@@ -26,6 +26,12 @@
                     <td>
                         <a href="{{ route('comics.show', $comic) }}" class="btn btn-secondary">+Details</a>
                         <a href="{{ route('comics.edit', $comic) }}" class="btn btn-warning">Edit</a>
+                        <form action="{{ route('comics.destroy', $comic) }}" method="POST" class="d-inline-block"
+                            onsubmit='return confirm("Are you sure?")'>
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="btn btn-danger">X</button>
+                        </form>
                     </td>
 
 

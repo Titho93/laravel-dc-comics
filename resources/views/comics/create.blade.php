@@ -36,7 +36,7 @@
                     <label for="floatingTextarea2">Description</label>
                 </div>
 
-                <button type="submit" class="btn btn-primary">Send</button>
+                <button type="submit" class="btn btn-success">Send</button>
                 <button type="reset" class="btn btn-secondary">Retry</button>
 
             </form>
