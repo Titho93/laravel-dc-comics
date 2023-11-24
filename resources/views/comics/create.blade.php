@@ -32,7 +32,7 @@
                     <input type="text" class="form-control" id="sale_date" name="sale_date">
                 </div>
                 <div class="form-floating mb-5">
-                    <textarea class="form-control" placeholder="Descrizione" id="description" name="description" style="height: 200px"></textarea>
+                    <textarea class="form-control" placeholder="Description" id="description" name="description" style="height: 200px"></textarea>
                     <label for="floatingTextarea2">Description</label>
                 </div>
 
