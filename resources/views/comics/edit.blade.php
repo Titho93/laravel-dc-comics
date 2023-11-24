@@ -34,8 +34,9 @@
                         value='{{ $comic->sale_date }}'>
                 </div>
                 <div class="form-floating mb-5">
-                    <textarea class="form-control" placeholder="Description" id="description" name="description" style="height: 200px"></textarea>
-                    <label for="floatingTextarea2">Description</label value='{{ $comic->description }}'>
+                    <textarea class="form-control" placeholder="Description" id="description" name="description" style="height: 200px"
+                        value='{{ $comic->description }}'>{{ $comic->description }}</textarea>
+                    <label for="floatingTextarea2">Description</label>
                 </div>
 
                 <button type="submit" class="btn btn-warning">Send</button>
